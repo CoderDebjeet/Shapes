@@ -1,0 +1,81 @@
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 122, 17);
+    border-radius:0% 30% 70% 30%; 
+}
+.edit{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 122, 17);
+    border-radius:0% 30% 70% 30%; 
+    transform: rotate(90deg);
+    position: absolute;
+    top:8px;
+    right: 560px;
+}
+.web{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 122, 17);
+    border-radius:0% 30% 70% 30%; 
+    transform: rotate(270deg);
+    position: absolute;
+}
+.last{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 122, 17);
+    border-radius:0% 30% 70% 30%; 
+    transform: rotate(178deg);
+    position: absolute;
+    right:560px
+}
+.outer{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #230c74;
+    margin: 10px;
+    position: absolute;
+    bottom: 250px;
+    cursor:pointer;
+   border: 1px solid red;
+}
+.inner{
+position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: 280px;
+  left: 45px;
+  border: 1px solid red;
+  
+}
+.outer1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #0a0c7a;
+    margin: 10px;
+    position: absolute;
+    bottom: 295px;
+    right: 589px;
+    cursor:pointer;
+    border: 1px solid red;
+}
+.inner1{
+position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  bottom:330px;
+  left: 93px;
+  border: 1px solid red;
+  
+}
+
